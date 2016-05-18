@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```
-Fiber::ROOT         # => the root fiber
+Fiber::ROOT_FIBER   # => the root fiber
 some_fiber.current? # true if the fiber is the current fiber
 some_fiber.root?    # true if the fiber is the root fiber
 ```
